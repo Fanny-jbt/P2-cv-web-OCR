@@ -1,0 +1,73 @@
+/* police  */
+@font-face{
+    font-family: Roboto-Light;
+    src: url(../polices/Roboto-Light.ttf);
+    font-family: Roboto-Black;
+    src: url(../police/Roboto-Black.ttf);
+
+}
+/* BODY  */
+
+body{
+    color :rgb(104, 103, 103);
+    font-family:Robot-Light ;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 20px   
+}
+h2,h3{
+    font-weight: lighter;
+}
+
+
+/* Aside  */
+
+aside{
+    background-color: rgba(252, 235, 5, 0.753);
+    width: 20%;
+  
+    
+}
+
+img{
+    display: block;
+    margin: 35px 35px 35px 35px ;
+    width: 60%;
+    height: 9%;
+    border-radius: 50%
+   
+}
+.aside-title{
+    background-color: rgb(92, 64, 64);
+    padding: 5px 0px 5px 0px;
+    color: rgba(252, 235, 5, 0.753);
+    text-align: center;
+}
+
+/* MAIN*/
+main{
+    margin: 30px 60px 0px 40px;
+}
+
+.right-title{
+    color: rgb(56, 56, 56);
+    font-family:Roboto-Black ;
+}
+i,hr,strong {
+    color: rgba(252, 235, 5, 0.753);
+}
+span{
+    font-weight: bold;
+}
+#title{
+ font-size: 25px;   
+}
