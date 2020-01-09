@@ -116,4 +116,28 @@
             padding: 10px 10px 10px 10px;
         }
 
+/* media quries */
 
+
+/****** BREAKPOINTS ******
+small = 576px;
+medium = 768px;
+large = 992px;
+x-large = 1200px;
+*************************/
+@media screen and (max-width: 375px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    aside{
+        width: 100%;
+    }
+    .sub-section{
+        display: flex;
+        flex-direction: column;
+    }
+   h2{
+        font-size: 20px;
+   }
+}
