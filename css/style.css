@@ -16,13 +16,13 @@
         }
 
         h1{
-            font-size: 35px;
+            font-size: 40px;
         }
         h2{
-            font-size: 25px;
+            font-size: 30px;
         }
         h3{
-            font-size: 20px   
+            font-size: 25px   
         }
         h2,h3{
             font-weight: lighter;
@@ -109,14 +109,14 @@
         .right-title{
             color: rgb(56, 56, 56);
             font-family:Roboto-Black ;
-            padding: 10px 10px 10px 40px;
+            padding: 10px 10px 10px 30px;
         }
         .recomandation-content{
             width: 50%;
             padding: 10px 10px 10px 10px;
         }
 
-/* media quries */
+/* media queries */
 
 
 /****** BREAKPOINTS ******
@@ -125,10 +125,11 @@ medium = 768px;
 large = 992px;
 x-large = 1200px;
 *************************/
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 576px) {
     body{
         display: flex;
         flex-direction: column;
+        font-size: 15px;
     }
     aside{
         width: 100%;
@@ -137,7 +138,35 @@ x-large = 1200px;
         display: flex;
         flex-direction: column;
     }
-   h2{
-        font-size: 20px;
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px
+    }
+
+   .right-title{
+    padding: 10px 10px 5px 10px;
    }
+
+   #intro{
+    padding: 10px 10px 20px 10px;
+    
+    }
+    p.content{
+        width: 100%;
+        text-align: justify;
+        margin: 5px 5px 5px 5px;
+    }
+    p.date{
+        width: 100%;
+        padding: 5px 5px 5px 5px  
+    }
+    main{
+        margin: 5px 5px 5px 5px;
+        width: 90%;
+
 }
