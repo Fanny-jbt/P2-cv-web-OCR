@@ -58,7 +58,7 @@
             width: 30%;
         }
 
-        img{
+        img.cv{
             display: flex;
             width: 50%;
             height: 9%;
@@ -73,20 +73,27 @@
             color: rgba(252, 235, 5, 0.753);
             text-align: center;
         }
-        p.contact, p.about{
-            padding: 5px 20px 5px 20px;
-
-        }
+        
         .about{
             flex: 1;
         }
-
+        p.contact-content, 
+        p.about-content{
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        p.hobbys-icon{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+            
         img.icon
         {
             border: 2px solid #404040;
             color: #404040;
             border-radius: 50%;
-            width: 9%;
+            width: 15%;
            
         }
 
@@ -97,13 +104,10 @@
             width: 70%;
 
         }
-        #intro{
+        #intro, #formation, #experience,#recommandation{
             padding: 10px 10px 50px 10px;
         }
-        #formation{
-            padding: 10px 10px 100px 10px;  
-            
-        }
+       
         .title{
             font-size: 25px;
             display: flex;
