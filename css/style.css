@@ -1,37 +1,51 @@
 /* polices  */
-@font-face{
-    font-family: Roboto-Light;
-    src: url(../polices/Roboto-Light.ttf);
-    font-family: Roboto-Black;
-    src: url(../police/Roboto-Black.ttf);
 
-}
 /* BODY  */
 
         body{
             color :rgb(104, 103, 103);
-            font-family:Robot-Light ;
+            font-family:'Roboto';
+            font-size: 16px;
+            font-weight: 300;
             display: flex;
             justify-content: space-between;
         }
 
         h1{
-            font-size: 40px;
+            font-size: 42px;
+            font-weight: 500;
         }
         h2{
-            font-size: 30px;
+            font-size: 26px;
+            font-weight: 300
+            ;
         }
         h3{
-            font-size: 25px   
+            font-size: 30px  ; 
         }
-        h2,h3{
-            font-weight: lighter;
-        }
-        i,hr,strong {
+        h4{
+            font-size: 22px ; 
+            font-weight: 400;
+            margin-bottom:2px;
+            text-transform: uppercase;
+         }
+         h5{
+             padding:2px;
+             margin: inherit;
+             font-weight: 400;
+             font-size: 18px ; 
+         }
+
+        
+        i,strong {
             color: rgba(252, 235, 5, 0.753);
+        }
+        i{
+            margin-right:10px;
         }
         span{
             font-weight: bold;
+            
         }
 
 
@@ -41,7 +55,7 @@
             background-color: rgba(252, 235, 5, 0.753);
             display:flex;
             flex-direction: column;
-            width: 25%;
+            width: 30%;
         }
 
         img{
@@ -67,8 +81,6 @@
             flex: 1;
         }
 
-        
-        
         img.icon
         {
             border: 2px solid #404040;
@@ -82,34 +94,50 @@
 
         main{
             margin: 30px 60px 0px 40px;
-            width: 75%;
+            width: 70%;
 
         }
         #intro{
-            padding: 10px 10px 100px 10px;
+            padding: 10px 10px 50px 10px;
+        }
+        #formation{
+            padding: 10px 10px 100px 10px;  
+            
         }
         .title{
             font-size: 25px;
             display: flex;
             align-items: center; 
-        
+            border-bottom: 2px solid rgba(252, 235, 5, 0.753);
+            
+           
         }
         .sub-section{
         display: flex;
         flex-direction: row;
+        align-items: baseline;
+
         }
-        p.date{
+        .date{
             padding: 10px 10px 10px 10px;
-            width: 30%;
+            display: flex;
+            align-items: baseline; 
+            width: 30%; 
         }
-        p.content{
+        p{
+           margin-right: 20px;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
             padding: 10px 10px 10px 10px;
             width: 70%; 
+            
         }
         .right-title{
             color: rgb(56, 56, 56);
-            font-family:Roboto-Black ;
-            padding: 10px 10px 10px 30px;
+            font-weight: 300;
+            
         }
         .recomandation-content{
             width: 50%;
