@@ -2,151 +2,151 @@
 
 /* BODY  */
 
-        body{
-            color :rgb(104, 103, 103);
-            font-family:'Roboto';
-            font-size: 16px;
-            font-weight: 300;
-            display: flex;
-            justify-content: space-between;
-        }
+body{
+    color :rgb(104, 103, 103);
+    font-family:'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+}
 
-        h1{
-            font-size: 42px;
-            font-weight: 500;
-        }
-        h2{
-            font-size: 26px;
-            font-weight: 300
-            ;
-        }
-        h3{
-            font-size: 30px  ; 
-        }
-        h4{
-            font-size: 22px ; 
-            font-weight: 400;
-            margin-bottom:2px;
-            text-transform: uppercase;
-         }
-         h5{
-             padding:2px;
-             margin: inherit;
-             font-weight: 400;
-             font-size: 18px ; 
-         }
+h1{
+    font-size: 42px;
+    font-weight: 500;
+}
+h2{
+    font-size: 26px;
+    font-weight: 300
+    ;
+}
+h3{
+    font-size: 30px  ; 
+}
+h4{
+    font-size: 22px ; 
+    font-weight: 400;
+    margin-bottom:2px;
+    text-transform: uppercase;
+ }
+ h5{
+     padding:2px;
+     margin: inherit;
+     font-weight: 400;
+     font-size: 18px ; 
+ }
 
-        
-        i,strong {
-            color: rgba(252, 235, 5, 0.753);
-        }
-        i{
-            margin-right:10px;
-        }
-        span{
-            font-weight: bold;
-            
-        }
+
+i,strong {
+    color: rgba(252, 235, 5, 0.753);
+}
+i{
+    margin-right:10px;
+}
+span{
+    font-weight: bold;
+    
+}
 
 
 /* ASIDE */
 
-        aside{
-            background-color: rgba(252, 235, 5, 0.753);
-            display:flex;
-            flex-direction: column;
-            width: 30%;
-        }
+aside{
+    background-color: rgba(252, 235, 5, 0.753);
+    display:flex;
+    flex-direction: column;
+    width: 30%;
+}
 
-        img.cv{
-            display: flex;
-            width: 50%;
-            height: 9%;
-            border-radius: 50%;
-            padding: 10px ;
-            margin-left: 60px;
-            margin-top: 30px;
-        }
-        .aside-title{
-            background-color: rgb(92, 64, 64);
-            padding: 5px 0px 5px 0px;
-            color: rgba(252, 235, 5, 0.753);
-            text-align: center;
-        }
-        
-        .about{
-            flex: 1;
-        }
-        p.contact-content, 
-        p.about-content{
-            margin-right: 20px;
-            margin-left: 20px;
-        }
-        p.hobbys-icon{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-        }
-            
-        img.icon
-        {
-            border: 2px solid #404040;
-            color: #404040;
-            border-radius: 50%;
-            width: 15%;
-           
-        }
+img.cv{
+    display: flex;
+    width: 50%;
+    height: 9%;
+    border-radius: 50%;
+    padding: 10px ;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.aside-title{
+    background-color: rgb(92, 64, 64);
+    padding: 5px 0px 5px 0px;
+    color: rgba(252, 235, 5, 0.753);
+    text-align: center;
+}
+
+.about{
+    flex: 1;
+}
+p.contact-content, 
+p.about-content{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+p.hobbys-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+    
+img.icon
+{
+    border: 2px solid #404040;
+    color: #404040;
+    border-radius: 50%;
+    width: 15%;
+   
+}
 
 /* MAIN*/
 
-        main{
-            margin: 30px 60px 0px 40px;
-            width: 70%;
+main{
+    margin: 30px 60px 0px 40px;
+    width: 70%;
 
-        }
-        #intro, #formation, #experience,#recommandation{
-            padding: 10px 10px 50px 10px;
-        }
-       
-        .title{
-            font-size: 25px;
-            display: flex;
-            align-items: center; 
-            border-bottom: 2px solid rgba(252, 235, 5, 0.753);
-            
-           
-        }
-        .sub-section{
-        display: flex;
-        flex-direction: row;
-        align-items: baseline;
+}
+#intro, #formation, #experience,#recommandation{
+    padding: 10px 10px 50px 10px;
+}
 
-        }
-        .date{
-            padding: 10px 10px 10px 10px;
-            display: flex;
-            align-items: baseline; 
-            width: 30%; 
-        }
-        p{
-           margin-right: 20px;
-        }
-        .content{
-            display: flex;
-            flex-direction: column;
-            padding: 10px 10px 10px 10px;
-            width: 70%; 
-            
-        }
-        .right-title{
-            color: rgb(56, 56, 56);
-            font-weight: 300;
-            
-        }
-        .recomandation-content{
-            width: 50%;
-            padding: 10px 10px 10px 10px;
-        }
+.title{
+    font-size: 25px;
+    display: flex;
+    align-items: center; 
+    border-bottom: 2px solid rgba(252, 235, 5, 0.753);
+    
+   
+}
+.sub-section{
+display: flex;
+flex-direction: row;
+align-items: baseline;
+
+}
+.date{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    align-items: baseline; 
+    width: 30%; 
+}
+p{
+   margin-right: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+    width: 70%; 
+    
+}
+.right-title{
+    color: rgb(56, 56, 56);
+    font-weight: 300;
+    
+}
+.recomandation-content{
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+}
 
 /* media queries */
 
@@ -157,48 +157,69 @@ medium = 768px;
 large = 992px;
 x-large = 1200px;
 *************************/
-@media screen and (max-width: 576px) {
-    body{
-        display: flex;
-        flex-direction: column;
-        font-size: 15px;
-    }
-    aside{
-        width: 100%;
-    }
-    .sub-section{
-        display: flex;
-        flex-direction: column;
-    }
-    h1{
-        font-size: 30px;
-    }
-    h2{
-        font-size: 25px;
-    }
-    h3{
-        font-size: 20px
-    }
+@media screen and (max-width: 768px) {
+body{
+display: flex;
+flex-direction: column-reverse;
+font-size: 15px;
+}
 
-   .right-title{
-    padding: 10px 10px 5px 10px;
-   }
+/* MAIN */
+main{
+margin: 5px 5px 5px 5px;
+width: 100%
+}
 
-   #intro{
-    padding: 10px 10px 20px 10px;
-    
-    }
-    p.content{
-        width: 100%;
-        text-align: justify;
-        margin: 5px 5px 5px 5px;
-    }
-    p.date{
-        width: 100%;
-        padding: 5px 5px 5px 5px  
-    }
-    main{
-        margin: 5px 5px 5px 5px;
-        width: 90%;
+#intro, #formation{
+padding: 10px 10px 20px 10px;
+}
+.date{
+ width: 100%;
+padding: 5px 5px 5px 5px  
+}
+.content{
+    width: auto; 
+    text-align: justify;
+   
+ }
 
+
+/* ASIDE */
+aside{
+    width: 100%;
+
+}
+.sub-section{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 20px
+}
+
+.right-title{
+padding: 10px 10px 5px 10px;
+}
+
+
+p.content{
+    width: 100%;
+    text-align: justify;
+    margin: 5px 5px 5px 5px;
+}
+
+
+@media screen and (max-width: 992x){
+    /* Aside */
+    /* Main */
+}
+@media screen and (max-width: 1200px){
+    /* Aside */
+    /* Main */
 }
