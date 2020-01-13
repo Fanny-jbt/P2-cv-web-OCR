@@ -7,7 +7,7 @@ medium = 768px;
 large = 992px;
 x-large = 1200px;
 *************************/
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
     body{
     display: flex;
     flex-direction: column-reverse;
@@ -27,6 +27,10 @@ x-large = 1200px;
     }
     h5{
         font-size: 15px 
+    }
+    hr.line{
+        border-top: 1px dotted rgba(252, 235, 5, 0.753);
+        
     }
     /* MAIN */
     main{
@@ -73,11 +77,23 @@ x-large = 1200px;
     }
     
     
-    @media screen and (max-width: 992x){
+    @media all and (min-width: 768px) and (max-width: 992px){
+        /* BODY */
+        hr.line{
+            display: none;
+            
+        }
+        
         /* Aside */
+    
         /* Main */
     }
-    @media screen and (max-width: 1200px){
+    @media all and (min-width: 992px)and (max-width: 3080px){
+        /* Body */
+        hr.line{
+            display: none;
+            
+        }
         /* Aside */
         /* Main */
     }
