@@ -6,9 +6,24 @@ body{
     font-family:'Roboto';
     font-size: 16px;
     font-weight: 300;
+    
+}
+.container{
     display: flex;
     justify-content: space-between;
 }
+a.link:link  {
+    color :rgb(104, 103, 103);
+}
+a.link:visited{
+    color :rgb(184, 176, 176);
+}
+
+a.mail:link  {
+    color :rgb(33, 20, 228);
+    font-weight: bold;
+}
+/* quel peseudo classe pour les mail cliqués? */
 
 h1{
     font-size: 42px;
