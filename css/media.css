@@ -21,69 +21,85 @@ x-large = 1200px;
 }
 
 @media all and (max-width: 768px) {
-    body{
-    font-size: 12px;
+    body, p{
+    font-size: 18px;
     }
     .container{
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
+        
     }
+    
     h1{
-        font-size: 30px;
+        font-size: 40px;
     }
     h2{
-        font-size: 22px;
+        font-size: 30px;
         color: darkcyan;
     }
     h3{
-        font-size: 18px
+        font-size: 35px
     }
     h4{
-        font-size: 16px  
+        font-size: 25px  
     }
     h5{
-        font-size: 15px 
+        font-size: 20px 
     }
+   
     hr.line{
         border-top: 1px dotted rgba(252, 235, 5, 0.753);
         
     }
-    /* MAIN */
+    
+/* MAIN */
     main{
     margin: 5px 5px 5px 5px;
     width: 100%
     }
-    
-    #intro, #formation{
-    padding: 10px 10px 20px 10px;
+    #intro-desktop{
+        display: none;
     }
-    .date{
-     width: 100%;
-    padding: 5px 5px 5px 5px ; 
-    font-size:15px ;
+    .title{
+        display: flex;
+        justify-content: center;
     }
-    .content{
-        width: auto; 
-        text-align: justify;
-       
-     }
-    
-    
-    /* ASIDE */
-    aside{
-        width: 100%;
-    
-    }
+
     .sub-section{
         display: flex;
         flex-direction: column;
     }
-    
-    
+
+    .date{
+    width: 100%;
+    padding: 5px 5px 5px 5px ; 
+    font-size:15px ;
+    justify-content: center;
+    }
+    .content, .about-content, .contact-content,.intro {
+        width: 100%; 
+        text-align: center;
+     }
+     
     .right-title{
-    padding: 10px 10px 5px 10px;
+        padding: 10px 10px 5px 10px;
+    }
+    .hobbys-mobile{
+        background-color: rgba(252, 235, 5, 0.753) ;
+    }
+     
+    
+    /* ASIDE */
+    aside{
+        width: 100%;
+        background-color: white;
     
     }
+    .hobbys-desktop{
+        display: none;
+    }
+
+    
     
     
     p.content{
@@ -91,6 +107,8 @@ x-large = 1200px;
         text-align: justify;
         margin: 5px 5px 5px 5px;
     }
+    
+    
 }
     
     
