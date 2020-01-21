@@ -11,31 +11,40 @@ x-large = 1200px;
     h2{
         color: crimson;
     }
+    body, p{
+        font-size: 25px; 
+        }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+       
+    }
+    h3{
+        font-size: 45px
+    }
+    h4{
+        font-size: 35px  
+    }
+    h5{
+        font-size: 30px 
+    }
+    .intro-mobile,hr.line,.hobbys-mobile {
+        display: none;
+    }
+    
 }
 
-@media all and (max-width: 992px){
+@media all and (max-width: 992px) {
     h2{
         color:rgb(51, 22, 216);
     }
-
-}
-
-@media all and (max-width: 768px) {
-    body, p{
-    font-size: 18px;
-    }
-    .container{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    
     h1{
         font-size: 40px;
     }
     h2{
         font-size: 30px;
-        color: darkcyan;
     }
     h3{
         font-size: 35px
@@ -46,7 +55,26 @@ x-large = 1200px;
     h5{
         font-size: 20px 
     }
-   
+    body, p{
+        font-size: 18px;
+        }
+    
+}
+
+@media all and (max-width: 768px) {
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    
+    h2{
+
+        color: darkcyan;
+    }
+    
     hr.line{
         border-top: 1px dotted rgba(252, 235, 5, 0.753);
         
@@ -60,6 +88,7 @@ x-large = 1200px;
     #intro-desktop{
         display: none;
     }
+
     .title{
         display: flex;
         justify-content: center;
@@ -84,8 +113,8 @@ x-large = 1200px;
     width: 90%;
     padding: 5px 5px 5px 5px ; 
     font-size:15px ;
-    j
-    }
+        }
+
     .about-content, .contact-content,.intro {
         width: 100%; 
         text-align: center;
@@ -109,9 +138,6 @@ x-large = 1200px;
         display: none;
     }
 
-    
-    
-    
 }
     
     
