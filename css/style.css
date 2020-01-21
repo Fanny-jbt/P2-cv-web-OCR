@@ -10,12 +10,13 @@ body{
 }
 .container{
     display: flex;
-    
     justify-content: space-between;
 }
+
 a.link:link  {
     color :rgb(104, 103, 103);
 }
+
 a.link:visited{
     color :rgb(184, 176, 176);
 }
@@ -30,13 +31,14 @@ h1{
     font-size: 42px;
     font-weight: 500;
 }
+
 h2{
     font-size: 26px;
-    font-weight: 300
-    ;
+    font-weight:300;
 }
+
 h3{
-    font-size: 30px  ; 
+    font-size: 30px; 
 }
 h4{
     font-size: 22px ; 
@@ -44,6 +46,7 @@ h4{
     margin-bottom:2px;
     text-transform: uppercase;
  }
+
  h5{
      padding:2px;
      margin: inherit;
@@ -55,9 +58,11 @@ h4{
 i,strong {
     color: rgba(252, 235, 5, 0.753);
 }
+
 i{
     margin-right:10px;
 }
+
 span{
     font-weight: bold;
     
@@ -92,10 +97,11 @@ img.photo{
 .about{
     flex: 1;
 }
+
 p.contact-content, 
 p.about-content{
-    margin-right: 20px;
-    margin-left: 20px;
+   width: 90%;
+   margin: auto;
 }
 p.hobbys-icon{
     display: flex;

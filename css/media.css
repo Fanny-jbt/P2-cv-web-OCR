@@ -63,20 +63,30 @@ x-large = 1200px;
     .title{
         display: flex;
         justify-content: center;
+        width: 90%; 
+
+    }
+    .content{
+        width: 90%; 
     }
 
     .sub-section{
         display: flex;
         flex-direction: column;
     }
+    .sub-content{
+        width: 100%;
+        margin: auto;
+        text-align: justify;
+    }
 
     .date{
-    width: 100%;
+    width: 90%;
     padding: 5px 5px 5px 5px ; 
     font-size:15px ;
-    justify-content: center;
+    j
     }
-    .content, .about-content, .contact-content,.intro {
+    .about-content, .contact-content,.intro {
         width: 100%; 
         text-align: center;
      }
@@ -102,13 +112,6 @@ x-large = 1200px;
     
     
     
-    p.content{
-        width: 100%;
-        text-align: justify;
-        margin: 5px 5px 5px 5px;
-    }
-    
-    
 }
     
     
@@ -116,9 +119,47 @@ x-large = 1200px;
         h2{
             color: rgb(231, 247, 9);
         }
+        body, p{
+            font-size: 16px;
+            }
+        h1{
+            font-size: 35px;
+        }
+        h2{
+            font-size: 25px;
+           
+        }
+        h3{
+            font-size: 30px
+        }
+        h4{
+            font-size: 20px  
+        }
+        h5{
+            font-size: 18px 
+        }
     }
     @media all and (max-width: 360px){
         h2{
             color:rgb(247, 136, 9);
          }
+         body, p{
+            font-size: 16px;
+            }
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 20px;
+           
+        }
+        h3{
+            font-size: 25px
+        }
+        h4{
+            font-size: 20px  
+        }
+        h5{
+            font-size: 18px 
+        }
     }
