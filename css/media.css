@@ -1,6 +1,5 @@
 /* media queries */
 
-
 /****** BREAKPOINTS ******
 small = 576px;
 medium = 768px;
@@ -29,9 +28,6 @@ x-large = 1200px;
     }
     h5{
         font-size: 30px 
-    }
-    .intro-mobile,hr.line,.hobbys-mobile {
-        display: none;
     }
     
 }
@@ -66,18 +62,13 @@ x-large = 1200px;
     .container{
         display: flex;
         flex-direction: column;
-        
     }
-    
-    
     h2{
-
         color: darkcyan;
     }
     
     hr.line{
-        border-top: 1px dotted rgba(252, 235, 5, 0.753);
-        
+        border-top: 1px dotted rgba(252, 235, 5, 0.753);   
     }
     
 /* MAIN */
@@ -93,8 +84,8 @@ x-large = 1200px;
         display: flex;
         justify-content: center;
         width: 90%; 
-
     }
+
     .content{
         width: 90%; 
     }
@@ -103,6 +94,7 @@ x-large = 1200px;
         display: flex;
         flex-direction: column;
     }
+
     .sub-content{
         width: 100%;
         margin: auto;
@@ -113,7 +105,7 @@ x-large = 1200px;
     width: 90%;
     padding: 5px 5px 5px 5px ; 
     font-size:15px ;
-        }
+    }
 
     .about-content, .contact-content,.intro {
         width: 100%; 

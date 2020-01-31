@@ -25,7 +25,7 @@ a.mail:link  {
     color :rgb(33, 20, 228);
     font-weight: bold;
 }
-/* quel peseudo classe pour les mail cliqués? */
+
 
 h1{
     font-size: 42px;
@@ -76,15 +76,17 @@ aside{
     display:flex;
     flex-direction: column;
     width: 30%;
+    
 }
-.photo-cv{
-    display: flex;
-    justify-content: center;
-}
+
 img.photo{
     width: 50%;
     border-radius: 50%;
-    padding: 10px ; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-top: 20px;
+    
 }
 
 .aside-title{
@@ -107,6 +109,8 @@ p.hobbys-icon{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 32px;
+    margin-top: 32px;
 }
     
 img.icon
@@ -115,7 +119,6 @@ img.icon
     color: #404040;
     border-radius: 50%;
     width: 15%;
-   
 }
 
 /* MAIN*/
@@ -123,12 +126,14 @@ img.icon
 main{
     margin: 30px 60px 0px 40px;
     width: 70%;   
-
 }
+
 #intro,#formation, #experience,#recommandation{
     padding: 10px 10px 50px 10px;
 }
-
+.intro-desktop{
+    margin-bottom: 72PX;
+}
 .title{
     font-size: 25px;
     display: flex;
@@ -169,3 +174,6 @@ p{
     padding: 10px 10px 10px 10px;
 }
 
+.intro-mobile, hr.line, .hobbys-mobile {
+    display: none;
+}
