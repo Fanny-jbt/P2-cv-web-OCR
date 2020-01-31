@@ -63,11 +63,13 @@ i{
     margin-right:10px;
 }
 
-span{
+span .bold{
     font-weight: bold;
-    
 }
 
+span.intro{
+    border-bottom: 4PX solid rgba(252, 235, 5, 0.753);;
+}
 
 /* ASIDE */
 
@@ -82,6 +84,7 @@ aside{
 img.photo{
     width: 50%;
     border-radius: 50%;
+    border: 7px solid rgba(245, 239, 164, 0.877);
     display: block;
     margin-left: auto;
     margin-right: auto ;
@@ -109,7 +112,6 @@ p.hobbys-icon{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
 }
     
 img.icon

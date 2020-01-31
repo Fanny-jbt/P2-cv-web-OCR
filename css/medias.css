@@ -10,7 +10,7 @@ x-large = 1200px;
     h2{
         color: crimson;
     }
-   
+    
 }
 
 @media all and (max-width: 992px) {
@@ -23,7 +23,11 @@ x-large = 1200px;
 @media all and (max-width: 768px) {
     .container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
+    }
+    img.photo{
+       
+        border: 3px solid rgba(252, 235, 5, 0.753);
         
     }
    
