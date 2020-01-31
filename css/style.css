@@ -109,8 +109,7 @@ p.hobbys-icon{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 32px;
-    margin-top: 32px;
+    
 }
     
 img.icon
