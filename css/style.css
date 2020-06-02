@@ -53,9 +53,9 @@ h4{
      font-weight: 400;
      font-size: 18px ; 
  }
+ 
 
-
-i,strong {
+i,.strong-title {
     color: rgba(252, 235, 5, 0.753);
 }
 
@@ -63,12 +63,12 @@ i{
     margin-right:10px;
 }
 
-span .bold{
+span.bold{
     font-weight: bold;
 }
 
 span.intro{
-    border-bottom: 4PX solid rgba(252, 235, 5, 0.753);;
+    
 }
 
 /* ASIDE */
@@ -93,7 +93,6 @@ img.photo{
     -webkit-border-radius:50%;
     -moz-border-radius:50%;
     border-radius:50%;
-    width:200px;
     height:200px;
 }
 
@@ -134,7 +133,7 @@ main{
     width: 70%;   
 }
 
-#intro,#formation, #experience,#recommandation{
+.intro,.formation,.experience,.recommandation{
     padding: 10px 10px 50px 10px;
 }
 .intro-desktop{
@@ -179,7 +178,16 @@ p{
     width: 50%;
     padding: 10px 10px 10px 10px;
 }
-
+.sub-section-comp{
+    display: flex;
+    margin: 10px;
+}
+.content-comp{
+    margin: 10px;
+}
+.iconCompetence{
+    width: 100px;
+}
 .intro-mobile, hr.line, .hobbys-mobile {
     display: none;
 }

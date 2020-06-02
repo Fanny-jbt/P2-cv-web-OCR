@@ -54,7 +54,6 @@ x-large = 1200px;
         display: none;
     }
     img.photo {
-        width: 30%;
         border-radius: 50%;
     }
     p.contact-content{
@@ -79,10 +78,24 @@ x-large = 1200px;
     .intro-mobile{
         text-align: center;
     }
+   .intro span{
+    border-bottom: 4PX solid rgba(250, 250, 245, 0.753);;
+    }
     img.icon{
         width: 10%;   
     }
-
+    .sub-section-comp{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 10px;
+    }
+    .content-comp{
+        margin: 10px;
+    }
+    .iconCompetence{
+        width: 50px;
+    }
 }
     
     
